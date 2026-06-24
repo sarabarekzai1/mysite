@@ -1,0 +1,88 @@
+   body {
+            
+            font-family: 'Trebuchet MS', sans-serif;
+            padding-top: 80px;
+            text-shadow: 0 0 2px;
+        }
+
+        /* Navbar */
+        .navbar-custom {
+            background-color: #f8fafa;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Header Section */
+        .paraghraf-vertical {
+            writing-mode: vertical-rl;
+            font-size: clamp(20px, 5vw, 40px);
+            color: #6cab95;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .paraghraf-vertical {
+                writing-mode: horizontal-tb;
+                margin-bottom: 20px;
+            }
+        }
+
+        .img-header {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            object-fit: cover;
+            max-height: 500px;
+        }
+
+        .portfolio-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px;
+            cursor: pointer;
+            aspect-ratio: 1 / 1;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+
+        .portfolio-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(98, 169, 146, 0.9);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            text-align: center;
+        }
+
+        .portfolio-item:hover .overlay-text {
+            opacity: 1;
+        }
+
+        /* Footer */
+        .footer-input {
+            border: none;
+            border-bottom: 2px solid black;
+            outline: none;
+            width: 100%;
+            max-width: 300px;
+            background: transparent;
+        }

@@ -1,0 +1,51 @@
+ body {
+            text-shadow: 0 0 2px;
+            overflow-x: hidden;
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+
+        .navbar-custom {
+            background-color: rgb(212, 199, 191);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .div2 {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            background: #fff;
+            transition: transform 0.3s;
+            height: 100%;
+        }
+
+        .div2:hover {
+            transform: scale(1.05);
+        }
+
+        .head-img-main {
+            width: 100%;
+            max-width: 890px;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .head1 {
+            text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .head2 {
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        body {
+            padding-top: 70px;
+        }

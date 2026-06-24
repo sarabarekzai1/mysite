@@ -1,0 +1,31 @@
+  body {
+            overflow-x: hidden;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-shadow: 0 0 2px;
+        }
+        .property-row {
+         align-items: center; padding: 40px 0; }
+        .bg-custom {
+         background-color: #f8f9fa; }
+        img {
+         border-radius: 15px; width: 100%; height: auto; object-fit: cover; }
+        .head {
+            text-align: center;
+        }
+        .src {
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        .footer i {
+            width: 100px;
+            padding-left: 20px;
+        }
+                .footer {
+            text-align: center;
+            font-size: 15px;
+        }
+        .input1{
+            border: none;
+            border-bottom: 2px solid black;
+        }
